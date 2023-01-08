@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(circle, #0369a1 20%, #262626 80%);
+  font-family: "Pacifico", cursive;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parent {
+  /* background-color: #8790e2; */
+  font-size: 55px;
+}
+.parent > p {
+  color: white;
+}
